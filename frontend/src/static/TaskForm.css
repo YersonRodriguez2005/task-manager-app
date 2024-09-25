@@ -1,0 +1,82 @@
+/* Estilos para el formulario de tareas */
+.task-form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #1b1b1b;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    border: 1px solid #333;
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.task-form:hover {
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.5);
+}
+
+.task-input,
+.task-textarea,
+.task-date {
+    width: 95%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #333;
+    border-radius: 4px;
+    background-color: #2c2c2c;
+    color: white;
+    font-size: 16px;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.task-input:focus,
+.task-textarea:focus,
+.task-date:focus {
+    border-color: #ff4d4d;
+    box-shadow: 0 4px 8px rgba(255, 77, 77, 0.7);
+    outline: none;
+}
+
+.task-textarea {
+    min-height: 100px;
+    resize: vertical;
+}
+
+.task-button {
+    padding: 12px;
+    background-color: #ff4d4d;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    box-shadow: 0 4px 8px rgba(255, 77, 77, 0.5);
+}
+
+.task-button:hover {
+    background-color: #cc0000;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(255, 77, 77, 0.7);
+}
+
+.task-button:active {
+    background-color: #990000;
+    transform: translateY(0);
+    box-shadow: 0 4px 8px rgba(255, 77, 77, 0.5);
+}
+
+/* Ajustes para pantallas más pequeñas */
+@media (max-width: 600px) {
+    .task-form {
+        padding: 15px;
+    }
+
+    .task-button {
+        font-size: 14px;
+        padding: 10px;
+    }
+}
