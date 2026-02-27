@@ -71,3 +71,9 @@ Las contribuciones son bienvenidas. Si deseas mejorar el proyecto, por favor abr
 ## 📜 Licencia
 
 Este proyecto está bajo la Licencia MIT. Para más detalles, consulta el archivo [LICENSE](LICENSE).
+
+## Contacto
+
+- **Autor**: Yerson Rodriguez
+- **Email**: rodriguezyerson2005@gmail.com
+- **GitHub**: [YersonRodriguez2005](https://github.com/YersonRodriguez2005)
